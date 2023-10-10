@@ -35,7 +35,6 @@ import deneme2.deneme2.service.MemberRegistration;
 public class MemberController {
 
     @Inject
-    @Deneme
     private FacesContext facesContext;
 
     @Inject

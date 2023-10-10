@@ -35,11 +35,5 @@ import jakarta.faces.context.FacesContext;
  */
 public class WebResources {
 
-    @Produces
-    @RequestScoped
-    @Deneme
-    public FacesContext produceFacesContext() {
-        return FacesContext.getCurrentInstance();
-    }
 
 }
