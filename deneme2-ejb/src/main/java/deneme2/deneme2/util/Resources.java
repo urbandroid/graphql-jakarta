@@ -18,10 +18,10 @@ package deneme2.deneme2.util;
 
 import java.util.logging.Logger;
 
-import jakarta.enterprise.inject.Produces;
-import jakarta.enterprise.inject.spi.InjectionPoint;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.enterprise.inject.Produces;
+import javax.enterprise.inject.spi.InjectionPoint;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 /**
  * This class uses CDI to alias Java EE resources, such as the persistence context, to CDI beans
