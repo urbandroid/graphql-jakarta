@@ -5,7 +5,7 @@ import org.eclipse.microprofile.graphql.Type;
 
 @Type
 public class MyType {
-    private String message = "Hello, GraphQL!";
+    private String message = "Hello, GraphQL!!!!";
     
     @Query
     public String getMessage() {
