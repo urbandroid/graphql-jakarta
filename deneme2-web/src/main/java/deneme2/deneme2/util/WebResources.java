@@ -16,10 +16,9 @@
  */
 package deneme2.deneme2.util;
 
-import deneme2.deneme2.controller.Deneme;
-import jakarta.enterprise.context.RequestScoped;
-import jakarta.enterprise.inject.Produces;
-import jakarta.faces.context.FacesContext;
+import javax.enterprise.context.RequestScoped;
+import javax.enterprise.inject.Produces;
+import javax.faces.context.FacesContext;
 
 /**
  * This class uses CDI to alias Java EE resources, such as the persistence context, to CDI beans
@@ -35,5 +34,11 @@ import jakarta.faces.context.FacesContext;
  */
 public class WebResources {
 
+    @Produces
+    @RequestScoped
+
+    public FacesContext produceFacesContext() {
+        return FacesContext.getCurrentInstance();
+    }
 
 }

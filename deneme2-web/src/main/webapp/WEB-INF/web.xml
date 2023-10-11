@@ -31,7 +31,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 	<servlet>
 		<servlet-name>SmallRye GraphQL Servlet</servlet-name>
-		<servlet-class>io.smallrye.graphql.entry.http.SchemaServlet</servlet-class>
+		<servlet-class>io.smallrye.graphql.servlet.SchemaServlet</servlet-class>
 		<init-param>
 			<param-name>javax.ws.rs.Application</param-name>
 			<param-value>deneme2.deneme2.rest.MyGraphQLResource</param-value>

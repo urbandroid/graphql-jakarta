@@ -1,6 +1,6 @@
 package deneme2.deneme2.rest;
 
-import jakarta.ws.rs.ApplicationPath;
+import javax.ws.rs.ApplicationPath;
 
 import org.eclipse.microprofile.graphql.GraphQLApi;
 import org.eclipse.microprofile.graphql.Query;
