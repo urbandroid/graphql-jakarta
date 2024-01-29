@@ -57,30 +57,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.eclipse.microprofile.graphql</groupId>
-			<artifactId>microprofile-graphql-api</artifactId>
-			<version>1.0.3</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.smallrye/smallrye-graphql-api -->
-		<dependency>
-			<groupId>io.smallrye</groupId>
-			<artifactId>smallrye-graphql-api</artifactId>
-			<version>2.4.0</version>
-		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/io.smallrye/smallrye-graphql-servlet -->
-		<dependency>
-			<groupId>io.smallrye</groupId>
-			<artifactId>smallrye-graphql-servlet</artifactId>
-			<version>2.4.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.smallrye</groupId>
-			<artifactId>smallrye-graphql</artifactId>
-			<version>2.4.0</version>
-		</dependency>
 
 
 	</dependencies>

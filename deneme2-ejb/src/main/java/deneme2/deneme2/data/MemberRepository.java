@@ -16,7 +16,7 @@
  */
 package deneme2.deneme2.data;
 
-import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.ejb.Stateless;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.CriteriaBuilder;
@@ -26,7 +26,7 @@ import java.util.List;
 
 import deneme2.deneme2.model.Member;
 
-@ApplicationScoped
+@Stateless
 public class MemberRepository {
 
     @Inject

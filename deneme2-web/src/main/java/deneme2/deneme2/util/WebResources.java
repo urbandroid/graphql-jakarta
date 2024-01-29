@@ -16,11 +16,6 @@
  */
 package deneme2.deneme2.util;
 
-import deneme2.deneme2.controller.Deneme;
-import jakarta.enterprise.context.RequestScoped;
-import jakarta.enterprise.inject.Produces;
-import jakarta.faces.context.FacesContext;
-
 /**
  * This class uses CDI to alias Java EE resources, such as the persistence context, to CDI beans
  * 
