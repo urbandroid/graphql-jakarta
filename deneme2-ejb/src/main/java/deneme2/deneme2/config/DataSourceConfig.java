@@ -1,9 +1,9 @@
 package deneme2.deneme2.config;
 
 import jakarta.annotation.sql.DataSourceDefinition;
-import jakarta.ejb.Stateless;
+import jakarta.ejb.Singleton;
 
-@Stateless
+@Singleton
 @DataSourceDefinition(
     name = "java:app/deneme2DS",
     className = "org.h2.jdbcx.JdbcDataSource",

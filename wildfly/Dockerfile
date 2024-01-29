@@ -1,4 +1,4 @@
-FROM jboss/wildfly
+FROM quay.io/wildfly/wildfly:latest
 
 # Set admin username and password
 ENV WILDFLY_USER=admin

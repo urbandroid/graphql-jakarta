@@ -5,5 +5,16 @@
    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
    version="6.0">
 
-  
+  	<servlet>
+		<servlet-name>SmallRye GraphQL Servlet</servlet-name>
+		<servlet-class>io.smallrye.graphql.entry.http.SchemaServlet</servlet-class>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>deneme2.deneme2.rest.MyGraphQLResource</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SmallRye GraphQL Servlet</servlet-name>
+		<url-pattern>/graphql</url-pattern>
+	</servlet-mapping>
 </web-app>

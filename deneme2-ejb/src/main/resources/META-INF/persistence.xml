@@ -15,11 +15,6 @@
 				value="import.sql" />
 			<!-- Properties for Hibernate <property name="hibernate.show_sql" value="false" 
 				/> -->
-			<property name="wildfly.jpa.applicationdatasource"
-				value="true" />
-			<property name="wildfly.jpa.twophasebootstrap" value="true" />
-
-			<property name="jboss.as.jpa.classtransformer" value="true" />
-		</properties>
+</properties>
 	</persistence-unit>
 </persistence>
